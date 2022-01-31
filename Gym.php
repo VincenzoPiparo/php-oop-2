@@ -1,5 +1,11 @@
 <?php 
+
+require_once __DIR__ . '/ProductDocuments.php';
+
     class GymProducts{
+     // Includiamo i trait
+        use Documents;
+
         public $brand;
         public $weight;
         protected $price = 25;

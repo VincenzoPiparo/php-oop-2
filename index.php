@@ -44,7 +44,8 @@ $eddieHall_basket = $eddieHall->getBasket();
         <div>
             <h2><?php echo $product->brand; ?> - <?php echo $product->weight; ?></h2>
             <h3> <?php echo $product->color; ?></h3>
-             <h3> <?php echo $product->price; ?> £</h3>
+            <h3> <?php echo $product->price; ?> £</h3>
+            <h3> <?php echo $product->iva;?> %</h3>
         </div>
     <?php } ?>
 </body>
